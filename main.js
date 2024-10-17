@@ -3,7 +3,7 @@ dotenv.config();
 import * as fs from "fs";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("AIzaSyAGkcYonGKVih4eFUmlpWIH6zLfQXDlorA");
+const genAI = new GoogleGenerativeAI("ENTER-API-KEY");
 
 function fileToGenerativePart(path, mimeType) {
     return {
